@@ -2,23 +2,25 @@
 <robot name="4_legged_robot">
     <link name="base_link">
         <visual>
-            <origin xyz="0 0 0" rpy="-1.57 0.0 1.57"/>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-                <mesh filename="package://lux_description/meshes/body.dae"/>
+                <mesh filename="package://lux_description/meshes/body.dae" scale="1 1 1"/>
             </geometry>
+            <material name="white">
+                <color rgba="1 1 1 1"/>
+            </material>
         </visual>
-        <inertial>
-            <mass value="0"/>
-            <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-        </inertial>
     </link>
 
     <link name="1_link1">
         <visual>
             <origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
             <geometry>
-                <mesh filename="package://lux_description/meshes/link1.dae"/>
+                <mesh filename="package://lux_description/meshes/link1.dae" scale="1 1 1"/>
             </geometry>
+            <material name="white">
+                <color rgba="1 1 1 1"/>
+            </material>
         </visual>
         <inertial>
             <mass value="0"/>
@@ -30,47 +32,59 @@
         <visual>    
             <origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
             <geometry>
-                <mesh filename="package://lux_description/meshes/link1.dae"/>
+                <mesh filename="package://lux_description/meshes/link1.dae" scale="1 1 1"/>
             </geometry>
-            <inertial>
-                <mass value="0"/>
-                <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-            </inertial>
+            <material name="white">
+                <color rgba="1 1 1 1"/>
+            </material>
         </visual>
+        <inertial>
+            <mass value="0"/>
+            <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+        </inertial>
     </link>
 
     <link name="3_link1">   
         <visual>    
             <origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
             <geometry>
-                <mesh filename="package://lux_description/meshes/link1.dae"/>
+                <mesh filename="package://lux_description/meshes/link1.dae" scale="1 1 1"/>
             </geometry>
-            <inertial>
-                <mass value="0"/>
-                <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-            </inertial>
+            <material name="white">
+                <color rgba="1 1 1 1"/>
+            </material>
         </visual>
+        <inertial>
+            <mass value="0"/>
+            <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+        </inertial>
     </link>
 
     <link name="4_link1">   
         <visual>    
             <origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
             <geometry>
-                <mesh filename="package://lux_description/meshes/link1.dae"/>
+                <mesh filename="package://lux_description/meshes/link1.dae" scale="1 1 1"/>
             </geometry>
-            <inertial>
-                <mass value="0"/>
-                <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-            </inertial>
+            <material name="white">
+                <color rgba="1 1 1 1"/>
+            </material>
         </visual>
+        <inertial>
+            <mass value="0"/>
+            <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+        </inertial>
     </link>
 
     <link name="1_link2">   
         <visual>    
             <origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
             <geometry>
-                <mesh filename="package://lux_description/meshes/link2.dae"/>
+                <mesh filename="package://lux_description/meshes/link2.dae" scale="1 1 1"/>
             </geometry>
+            <material name="white">
+                <color rgba="1 1 1 1"/>
+            </material>
             <inertial>
                 <mass value="0"/>
                 <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
@@ -82,8 +96,11 @@
         <visual>    
             <origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
             <geometry>
-                <mesh filename="package://lux_description/meshes/link2.dae"/>
+                <mesh filename="package://lux_description/meshes/link2.dae" scale="1 1 1"/>
             </geometry>
+            <material name="white">
+                <color rgba="1 1 1 1"/>
+            </material>
             <inertial>  
                 <mass value="0"/>
                 <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
@@ -95,8 +112,11 @@
         <visual>    
             <origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
             <geometry>
-                <mesh filename="package://lux_description/meshes/link2.dae"/>
+                <mesh filename="package://lux_description/meshes/link2.dae" scale="1 1 1"/>
             </geometry>
+            <material name="white">
+                <color rgba="1 1 1 1"/>
+            </material>
             <inertial>  
                 <mass value="0"/>
                 <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
@@ -108,17 +128,27 @@
         <visual>    
             <origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
             <geometry>
-                <mesh filename="package://lux_description/meshes/link2.dae"/>
+                <mesh filename="package://lux_description/meshes/link2.dae" scale="1 1 1"/>
             </geometry>
+            <material name="white">
+                <color rgba="1 1 1 1"/>
+            </material>
         </visual>
+        <inertial>
+            <mass value="0"/>
+            <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+        </inertial>
     </link>
 
     <link name="1_link3">   
         <visual>    
             <origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
             <geometry>
-                <mesh filename="package://lux_description/meshes/link3.dae"/>
+                <mesh filename="package://lux_description/meshes/link3.dae" scale="1 1 1"/>
             </geometry>
+            <material name="white">
+                <color rgba="1 1 1 1"/>
+            </material>
             <inertial>  
                 <mass value="0"/>
                 <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
@@ -130,8 +160,11 @@
         <visual>    
             <origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
             <geometry>
-                <mesh filename="package://lux_description/meshes/link3.dae"/>
+                <mesh filename="package://lux_description/meshes/link3.dae" scale="1 1 1"/>
             </geometry>
+            <material name="white">
+                <color rgba="1 1 1 1"/>
+            </material>
             <inertial>  
                 <mass value="0"/>
                 <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
@@ -143,8 +176,11 @@
         <visual>    
             <origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
             <geometry>
-                <mesh filename="package://lux_description/meshes/link3.dae"/>
+                <mesh filename="package://lux_description/meshes/link3.dae" scale="1 1 1"/>
             </geometry>
+            <material name="white">
+                <color rgba="1 1 1 1"/>
+            </material>
             <inertial>  
                 <mass value="0"/>
                 <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
@@ -156,8 +192,11 @@
         <visual>    
             <origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
             <geometry>
-                <mesh filename="package://lux_description/meshes/link3.dae"/>
+                <mesh filename="package://lux_description/meshes/link3.dae" scale="1 1 1"/>
             </geometry>
+            <material name="white">
+                <color rgba="1 1 1 1"/>
+            </material>
             <inertial>  
                 <mass value="0"/>
                 <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>

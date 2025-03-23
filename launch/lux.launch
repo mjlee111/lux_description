@@ -1,6 +1,7 @@
 <launch>
     <param name="robot_description" textfile="$(find lux_description)/urdf/lux.urdf" />
-    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find lux_description)/config/urdf.rviz"/>
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find lux_description)/rviz/lux.rviz"/>
     <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
-    <node name="joint_state_publisher_gui" pkg="joint_state_publisher_gui" type="joint_state_publisher_gui" />
+    <!-- <node name="joint_state_publisher_gui" pkg="joint_state_publisher_gui" type="joint_state_publisher_gui" /> -->
+    <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" />
 </launch>
