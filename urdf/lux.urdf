@@ -1,5 +1,13 @@
 <?xml version="1.0"?>
 <robot name="4_legged_robot">
+    <link name="world"/>
+
+    <joint name="world_joint" type="fixed">
+        <parent link="world"/>
+        <child link="base_link"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+    </joint>
+
     <link name="base_link">
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0"/>
@@ -10,6 +18,16 @@
                 <color rgba="1 1 1 1"/>
             </material>
         </visual>
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="package://lux_description/meshes/body.dae" scale="1 1 1"/>
+            </geometry>
+        </collision>
+        <inertial>
+            <mass value="1"/>
+            <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1"/>
+        </inertial>
     </link>
 
     <link name="1_link1">
@@ -22,6 +40,12 @@
                 <color rgba="1 1 1 1"/>
             </material>
         </visual>
+        <collision>
+            <origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+            <geometry>
+                <mesh filename="package://lux_description/meshes/link1.dae" scale="1 1 1"/>
+            </geometry>
+        </collision>
         <inertial>
             <mass value="0"/>
             <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
@@ -38,6 +62,12 @@
                 <color rgba="1 1 1 1"/>
             </material>
         </visual>
+        <collision>
+            <origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+            <geometry>
+                <mesh filename="package://lux_description/meshes/link1.dae" scale="1 1 1"/>
+            </geometry>
+        </collision>
         <inertial>
             <mass value="0"/>
             <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
@@ -54,6 +84,12 @@
                 <color rgba="1 1 1 1"/>
             </material>
         </visual>
+        <collision>
+            <origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+            <geometry>
+                <mesh filename="package://lux_description/meshes/link1.dae" scale="1 1 1"/>
+            </geometry>
+        </collision>
         <inertial>
             <mass value="0"/>
             <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
@@ -70,6 +106,12 @@
                 <color rgba="1 1 1 1"/>
             </material>
         </visual>
+        <collision>
+            <origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+            <geometry>
+                <mesh filename="package://lux_description/meshes/link1.dae" scale="1 1 1"/>
+            </geometry>
+        </collision>
         <inertial>
             <mass value="0"/>
             <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
@@ -90,6 +132,12 @@
                 <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
             </inertial>
         </visual>
+        <collision>
+            <origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+            <geometry>
+                <mesh filename="package://lux_description/meshes/link2.dae" scale="1 1 1"/>
+            </geometry>
+        </collision>
     </link>
 
     <link name="2_link2">   
@@ -105,6 +153,12 @@
                 <mass value="0"/>
                 <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
             </inertial>
+            <collision>
+                <origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+                <geometry>
+                    <mesh filename="package://lux_description/meshes/link2.dae" scale="1 1 1"/>
+                </geometry>
+            </collision>
         </visual>
     </link>
 
@@ -121,6 +175,12 @@
                 <mass value="0"/>
                 <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
             </inertial>
+            <collision>
+                <origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+                <geometry>
+                    <mesh filename="package://lux_description/meshes/link2.dae" scale="1 1 1"/>
+                </geometry>
+            </collision>
         </visual>
     </link>
 
@@ -133,6 +193,12 @@
             <material name="white">
                 <color rgba="1 1 1 1"/>
             </material>
+            <collision>
+                <origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+                <geometry>
+                    <mesh filename="package://lux_description/meshes/link2.dae" scale="1 1 1"/>
+                </geometry>
+            </collision>
         </visual>
         <inertial>
             <mass value="0"/>
@@ -154,6 +220,12 @@
                 <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
             </inertial>
         </visual>
+        <collision>
+            <origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+            <geometry>
+                <mesh filename="package://lux_description/meshes/link3.dae" scale="1 1 1"/>
+            </geometry>
+        </collision>
     </link>
 
     <link name="2_link3">   
@@ -170,6 +242,12 @@
                 <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
             </inertial>
         </visual>
+        <collision>
+            <origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+            <geometry>
+                <mesh filename="package://lux_description/meshes/link3.dae" scale="1 1 1"/>
+            </geometry>
+        </collision>
     </link>
     
     <link name="3_link3">   
@@ -186,6 +264,12 @@
                 <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
             </inertial>
         </visual>
+        <collision>
+            <origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+            <geometry>
+                <mesh filename="package://lux_description/meshes/link3.dae" scale="1 1 1"/>
+            </geometry>
+        </collision>
     </link>
 
     <link name="4_link3">   
@@ -202,6 +286,12 @@
                 <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
             </inertial>
         </visual>
+        <collision>
+            <origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+            <geometry>
+                <mesh filename="package://lux_description/meshes/link3.dae" scale="1 1 1"/>
+            </geometry>
+        </collision>
     </link>
 
     <joint name="1_link1_joint" type="revolute">
