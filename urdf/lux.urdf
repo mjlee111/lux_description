@@ -1,0 +1,263 @@
+<?xml version="1.0"?>
+<robot name="4_legged_robot">
+    <link name="base_link">
+        <visual>
+            <origin xyz="0 0 0" rpy="-1.57 0.0 1.57"/>
+            <geometry>
+                <mesh filename="package://lux_description/meshes/body.dae"/>
+            </geometry>
+        </visual>
+        <inertial>
+            <mass value="0"/>
+            <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+        </inertial>
+    </link>
+
+    <link name="1_link1">
+        <visual>
+            <origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+            <geometry>
+                <mesh filename="package://lux_description/meshes/link1.dae"/>
+            </geometry>
+        </visual>
+        <inertial>
+            <mass value="0"/>
+            <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+        </inertial>
+    </link>
+
+    <link name="2_link1">   
+        <visual>    
+            <origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+            <geometry>
+                <mesh filename="package://lux_description/meshes/link1.dae"/>
+            </geometry>
+            <inertial>
+                <mass value="0"/>
+                <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+            </inertial>
+        </visual>
+    </link>
+
+    <link name="3_link1">   
+        <visual>    
+            <origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+            <geometry>
+                <mesh filename="package://lux_description/meshes/link1.dae"/>
+            </geometry>
+            <inertial>
+                <mass value="0"/>
+                <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+            </inertial>
+        </visual>
+    </link>
+
+    <link name="4_link1">   
+        <visual>    
+            <origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+            <geometry>
+                <mesh filename="package://lux_description/meshes/link1.dae"/>
+            </geometry>
+            <inertial>
+                <mass value="0"/>
+                <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+            </inertial>
+        </visual>
+    </link>
+
+    <link name="1_link2">   
+        <visual>    
+            <origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+            <geometry>
+                <mesh filename="package://lux_description/meshes/link2.dae"/>
+            </geometry>
+            <inertial>
+                <mass value="0"/>
+                <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+            </inertial>
+        </visual>
+    </link>
+
+    <link name="2_link2">   
+        <visual>    
+            <origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+            <geometry>
+                <mesh filename="package://lux_description/meshes/link2.dae"/>
+            </geometry>
+            <inertial>  
+                <mass value="0"/>
+                <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+            </inertial>
+        </visual>
+    </link>
+
+    <link name="3_link2">   
+        <visual>    
+            <origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+            <geometry>
+                <mesh filename="package://lux_description/meshes/link2.dae"/>
+            </geometry>
+            <inertial>  
+                <mass value="0"/>
+                <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+            </inertial>
+        </visual>
+    </link>
+
+    <link name="4_link2">   
+        <visual>    
+            <origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+            <geometry>
+                <mesh filename="package://lux_description/meshes/link2.dae"/>
+            </geometry>
+        </visual>
+    </link>
+
+    <link name="1_link3">   
+        <visual>    
+            <origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+            <geometry>
+                <mesh filename="package://lux_description/meshes/link3.dae"/>
+            </geometry>
+            <inertial>  
+                <mass value="0"/>
+                <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+            </inertial>
+        </visual>
+    </link>
+
+    <link name="2_link3">   
+        <visual>    
+            <origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+            <geometry>
+                <mesh filename="package://lux_description/meshes/link3.dae"/>
+            </geometry>
+            <inertial>  
+                <mass value="0"/>
+                <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+            </inertial>
+        </visual>
+    </link>
+    
+    <link name="3_link3">   
+        <visual>    
+            <origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+            <geometry>
+                <mesh filename="package://lux_description/meshes/link3.dae"/>
+            </geometry>
+            <inertial>  
+                <mass value="0"/>
+                <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+            </inertial>
+        </visual>
+    </link>
+
+    <link name="4_link3">   
+        <visual>    
+            <origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+            <geometry>
+                <mesh filename="package://lux_description/meshes/link3.dae"/>
+            </geometry>
+            <inertial>  
+                <mass value="0"/>
+                <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+            </inertial>
+        </visual>
+    </link>
+
+    <joint name="1_link1_joint" type="revolute">
+        <parent link="base_link"/>
+        <child link="1_link1"/>
+        <origin xyz="0.072933 0.074926 -0.0085" rpy="-1.57 0 -2.356194"/>
+        <axis xyz="0 1 0"/>
+        <limit lower="-3.14" upper="3.14" effort="100" velocity="1"/>
+    </joint>
+
+    <joint name="2_link1_joint" type="revolute">    
+        <parent link="base_link"/>
+        <child link="2_link1"/>
+        <origin xyz="0.072933 -0.074926 -0.0085" rpy="-1.57 0 2.356194"/>
+        <axis xyz="0 1 0"/>
+        <limit lower="-3.14" upper="3.14" effort="100" velocity="1"/>
+    </joint>
+
+    <joint name="3_link1_joint" type="revolute">    
+        <parent link="base_link"/>
+        <child link="3_link1"/>
+        <origin xyz="-0.076918 -0.074926 -0.0085" rpy="-1.57 0 0.785398"/>
+        <axis xyz="0 1 0"/>
+        <limit lower="-3.14" upper="3.14" effort="100" velocity="1"/>
+    </joint>
+    
+    <joint name="4_link1_joint" type="revolute">    
+        <parent link="base_link"/>
+        <child link="4_link1"/>
+        <origin xyz="-0.076918 0.074926 -0.0085" rpy="-1.57 0 -0.785398"/>
+        <axis xyz="0 1 0"/>
+        <limit lower="-3.14" upper="3.14" effort="100" velocity="1"/>
+    </joint>
+
+    <joint name="1_link2_joint" type="revolute">    
+        <parent link="1_link1"/>
+        <child link="1_link2"/>
+        <origin xyz="-0.0675 -0.0267 0.0255" rpy="1.57 0 1.57"/>
+        <axis xyz="0 1 0"/>
+        <limit lower="-3.14" upper="3.14" effort="100" velocity="1"/>
+    </joint>
+
+    <joint name="2_link2_joint" type="revolute">    
+        <parent link="2_link1"/>
+        <child link="2_link2"/>
+        <origin xyz="-0.0675 -0.0267 0.0255" rpy="1.57 0 1.57"/>
+        <axis xyz="0 1 0"/>
+        <limit lower="-3.14" upper="3.14" effort="100" velocity="1"/>
+    </joint>
+
+    <joint name="3_link2_joint" type="revolute">    
+        <parent link="3_link1"/>
+        <child link="3_link2"/>
+        <origin xyz="-0.0675 -0.0267 0.0255" rpy="1.57 0 1.57"/>
+        <axis xyz="0 1 0"/>
+        <limit lower="-3.14" upper="3.14" effort="100" velocity="1"/>
+    </joint>
+
+    <joint name="4_link2_joint" type="revolute">    
+        <parent link="4_link1"/>
+        <child link="4_link2"/>
+        <origin xyz="-0.0675 -0.0267 0.0255" rpy="1.57 0 1.57"/>
+        <axis xyz="0 1 0"/>
+        <limit lower="-3.14" upper="3.14" effort="100" velocity="1"/>
+    </joint>
+
+    <joint name="1_link3_joint" type="revolute">    
+        <parent link="1_link2"/>
+        <child link="1_link3"/>
+        <origin xyz="0.0 -0.05 -0.0615" rpy="0.0 0.0 -3.14"/>
+        <axis xyz="0 1 0"/>
+        <limit lower="-3.14" upper="3.14" effort="100" velocity="1"/>
+    </joint>
+
+    <joint name="2_link3_joint" type="revolute">    
+        <parent link="2_link2"/>
+        <child link="2_link3"/>
+        <origin xyz="0.0 -0.05 -0.0615" rpy="0.0 0.0 -3.14"/>
+        <axis xyz="0 1 0"/>
+        <limit lower="-3.14" upper="3.14" effort="100" velocity="1"/>
+    </joint>
+
+    <joint name="3_link3_joint" type="revolute">    
+        <parent link="3_link2"/>
+        <child link="3_link3"/>
+        <origin xyz="0.0 -0.05 -0.0615" rpy="0.0 0.0 -3.14"/>
+        <axis xyz="0 1 0"/>
+        <limit lower="-3.14" upper="3.14" effort="100" velocity="1"/>
+    </joint>
+
+    <joint name="4_link3_joint" type="revolute">    
+        <parent link="4_link2"/>
+        <child link="4_link3"/>
+        <origin xyz="0.0 -0.05 -0.0615" rpy="0.0 0.0 -3.14"/>
+        <axis xyz="0 1 0"/>
+        <limit lower="-3.14" upper="3.14" effort="100" velocity="1"/>
+    </joint>
+</robot>
